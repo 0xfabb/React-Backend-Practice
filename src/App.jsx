@@ -1,5 +1,6 @@
 
 import './App.css'
+import Users from './components/users'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <h1 className='text-white text-center text-3xl font-bold mt-16'>I am in Love! (With Javascript)</h1>
 
   </div>
+  <Users />
     </div>
   )
 }
